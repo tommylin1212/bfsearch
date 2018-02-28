@@ -21,7 +21,7 @@ bool ExploredSet::check(Node * n) {
 
 bool ExploredSet::add(Node * n) {
 	exset.push_back(n);
-	return true;
+	return true;//hello
 }
 
 void ExploredSet::print() const {
